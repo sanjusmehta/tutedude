@@ -11,6 +11,6 @@ dict = {
 student_name = input("Enter the students name: ").capitalize()
 
 if (student_name in dict):
-    print("{}'s marks: {}".format(student_name.capitalize(),dict.get(student_name)))
+    print("{}'s marks: {}".format(student_name,dict.get(student_name)))
 else:
     print("Student not found.")
